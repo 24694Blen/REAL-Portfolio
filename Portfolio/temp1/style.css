@@ -385,8 +385,14 @@ line-height: 0;
 	grid-area: home-content2;
 }
 .logo-home2 {
-	width: auto;
+	width: 300px
+	;
 	height: 300px;
+
+}
+.background-color-logo2{
+	background-color: black;
+	width: 314px;
 }
 
 .quote-home {
@@ -478,11 +484,7 @@ line-height: 0;
 		bottom: 0;
 	}
 
-	.logo-home2 {
-		width: auto;
-    height: 250px;
 
-	}
 
 	.quote-home {
 		width: 350px;
