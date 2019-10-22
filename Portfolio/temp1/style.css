@@ -353,9 +353,7 @@ line-height: 0;
 	color: black;
 	font-size: 16px;
 }
-.home-container {
 
-}
 
 .home-container h2{
     margin-top: 100px;
@@ -766,80 +764,8 @@ margin-left: -300px
 #onsteam {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: grey;
+	background-color: #e8e8e8;
 	width: 100vw;
-
-}
-.h2-Watdoenwe{
-	color: white;
-}
-/* .col-md-offset-1{
-margin-left: 9.42%;
-} */
-
-.h2-onsteam{
-	color: white;
-	margin-right: 26px;
-}
-.alle-symbolen-2 {
-	margin-top: 35px;
-	margin-left: 7%;
-}
-
-.persoon-foto {
-	width: 80%;
-	border-radius: 160%;
-}
-.persoon-foto-2 {
-	width: 100%;
-	border-radius: 160%;
-}
-
-.p-onsteam {
-	margin-top: 10px;
-		color: white;
-}
-
-.section-about {
-	display: flex;
-	justify-content: center;
-	margin-right: 20px;
-}
-
-.foto-leermeer {
-	width: 200px;
-	margin: 0 auto;
-	margin-top: 25px;
-	top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-}
-
-@media screen and (max-width: 480px) {
-	.persoon-foto {
-		width: 100%
-	}
-}
-
-/* @media screen and (min-width: 480px) and (max-width: 1023px) {
-
-} */
-
-@media screen and (min-width: 768) and (max-width: 1024px) {
-	.alle-symbolen-2 {
-		margin-left: 0 !important;
-	}
-	.alle-symbolen {
-		margin-left: 0 !important;
-	}
-}
-
-@media screen and (max-width: 1024px) {
-	#onsteam {
-		padding: 100px 20px 100px 20px;
-	}
 
 }
 
@@ -1230,4 +1156,125 @@ ol.carousel-indicators li.active {
 
 .panel-body-a:hover {
 	color: #555555;
+}
+
+
+
+/* ................progres bar.................... */
+
+
+.progress1 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar1 {
+  height: 18px;
+  border-radius: 30px;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved1 .progress-bar1 {
+  width: 85%;
+  background-color: #2196f3;
+  animation: progressAnimation1 6s;
+}
+
+@keyframes progressAnimation1 {
+  0%   { width: 5%; background-color: #03a9f4;}
+  100% { width: 85%; background-color: #2196f3; }
+}
+/* nummer 1 progressbar */
+
+.progress2 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+  height: 18px;
+  border-radius: 30px;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved2 .progress-bar2 {
+  width: 75%;
+  background-color: #ffc107;
+  animation: progressAnimation2 6s;
+}
+
+@keyframes progressAnimation2 {
+  0%   { width: 5%; background-color: #ffeb3b;}
+  100% { width: 75%; background-color: #ffc107; }
+}
+/* nummer 1 progressbar */
+
+.progress3 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar3 {
+  height: 18px;
+  border-radius: 30px;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved3 .progress-bar3 {
+  width: 45%;
+  background-color: #e91e63;
+  animation: progressAnimation3 6s;
+}
+
+@keyframes progressAnimation3 {
+  0%   { width: 5%; background-color: #f44336;}
+  100% { width: 45%; background-color: #e91e63; }
+}
+/* nummer 1 progressbar */
+
+.progress4 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar4 {
+  height: 18px;
+  border-radius: 30px;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved4 .progress-bar4 {
+  width: 40%;
+  background-color: #8bc34a;;
+  animation: progressAnimation4 6s;
+}
+
+@keyframes progressAnimation4 {
+  0%   { width: 5%; background-color: #4caf50;}
+  100% { width: 40%; background-color: #8bc34a; }
+}
+
+
+.p-p{
+	text-align: center;
 }
