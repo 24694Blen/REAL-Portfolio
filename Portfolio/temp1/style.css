@@ -416,9 +416,7 @@ h3.logo span {
   }
 
   @media screen and (max-width: 768px) {
-    .logo-home2 {
-      margin-left: 15%;
-    }
+
 
     #home {
       background-image: url(links/homepic.jpg);
@@ -440,6 +438,12 @@ h3.logo span {
   #home {
     width: 100vw;
     padding-top: 0 !important;
+  }
+  .typing-h1 {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 70px;
+    font-size: 60px;
   }
 
   .btn-text {
